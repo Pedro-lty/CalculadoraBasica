@@ -8,6 +8,9 @@ while True:
             2- Restar
             3- Multiplicar
             4- dividir 
+            5- Suma de 3 números
+            6- Potencia
+            7- Salir
         """)
 
     valor = int(input("Elige una opcion: ") )     
@@ -24,6 +27,14 @@ while True:
     if valor == 4:
         print("la division es",num1/num2)
         break;
+    if valor == 5:
+        num3 = int(input("numero 3: "))
+        print("La suma total es de", num1+num2+num3)
+    if valor == 6:
+        print("El valor de la potencia es: ", num1**num2)
+    if valor == 7:
+        print("Hasta pronto")
+        break
     else:
         print("Opcion incorrecta")
         break;
